@@ -93,12 +93,14 @@ def main():
             addStudent(first_name, last_name, email, enrollment_date)
 
         elif option == 2:
+            getAllStudents()
             student_id = str(input("Enter the student's id: "))
             if student_id.isnumeric():
                 new_email = str(input("Enter the new email address: "))
                 updateStudentEmail(student_id, new_email)
 
         elif option == 3:
+            getAllStudents()
             student_id = str(input("Enter the student's id: "))
             if student_id.isnumeric():
                 deleteStudent(student_id)
