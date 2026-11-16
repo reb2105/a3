@@ -21,7 +21,7 @@ Setup
 
 4. Install the required psycopg
 
-5. Run python3 assignment3.py in terminal
+5. Run python3 student_application.py in terminal
 
 6. Follow the menu options to manage the student records
 
